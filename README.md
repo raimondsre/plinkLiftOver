@@ -8,8 +8,11 @@ Quick liftOver for PLINK data
 
 ## 2. Code
 _#Prepare conda environment_
+
 ```conda create --name liftOver; conda activate liftOver; conda install -c bioconda plink2; conda install -c bioconda ucsc-liftover ```
+
 #download liftOver chain file from https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
+
 ```wget https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz```
 
 _#liftOver hg19 to hg38_
