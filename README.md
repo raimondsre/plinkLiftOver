@@ -7,8 +7,8 @@ Quick liftOver for PLINK data
     - liftOver
 
 ## 2. Code
-#Prepare conda environment
-conda create --name liftOver; conda activate liftOver; conda install -c bioconda plink2; conda install -c bioconda ucsc-liftover
+#Prepare conda environment \n
+conda create --name liftOver; conda activate liftOver; conda install -c bioconda plink2; conda install -c bioconda ucsc-liftover \n
 #download liftOver chain file from https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/
 wget https://hgdownload.cse.ucsc.edu/goldenpath/hg19/liftOver/hg19ToHg38.over.chain.gz
 
